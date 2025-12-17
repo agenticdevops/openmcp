@@ -220,10 +220,10 @@ The gateway validates catalogs on load:
 
 | Rule | Error |
 |------|-------|
-| Duplicate `id` | "Duplicate server ID: {id}" |
-| Missing `id` | "Server at index {n} missing required field: id" |
-| Missing `runtime` | "Server '{id}' missing required field: runtime" |
-| Unknown runtime type | "Server '{id}' has unknown runtime type: {type}" |
+| Duplicate `id` | `Duplicate server ID: <id>` |
+| Missing `id` | `Server at index <n> missing required field: id` |
+| Missing `runtime` | `Server '<id>' missing required field: runtime` |
+| Unknown runtime type | `Server '<id>' has unknown runtime type: <type>` |
 | Invalid YAML | Standard YAML parse error |
 
 ## Organization Patterns
