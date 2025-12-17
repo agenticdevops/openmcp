@@ -50,6 +50,8 @@ const config = {
         logo: {
           alt: 'Open MCP Gateway Logo',
           src: 'img/logo.svg',
+          width: 32,
+          height: 32,
         },
         items: [
           {
