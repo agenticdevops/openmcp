@@ -10,14 +10,17 @@ const config = {
   url: 'https://openmcp.aof.sh',
   baseUrl: '/',
 
-  organizationName: 'agentic',
-  projectName: 'mcp-gateway',
+  organizationName: 'agenticdevops',
+  projectName: 'openmcp',
 
   // GitHub Pages deployment settings
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    onBrokenMarkdownLinks: 'warn',
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -31,12 +34,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/agentic/mcp-gateway/tree/main/docs-site/',
+          editUrl: 'https://github.com/agenticdevops/openmcp/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/agentic/mcp-gateway/tree/main/docs-site/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -73,7 +73,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/agentic/mcp-gateway',
+            href: 'https://github.com/agenticdevops/openmcp',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,11 +104,11 @@ const config = {
             items: [
               {
                 label: 'GitHub Discussions',
-                href: 'https://github.com/agentic/mcp-gateway/discussions',
+                href: 'https://github.com/agenticdevops/openmcp/discussions',
               },
               {
-                label: 'Discord',
-                href: 'https://discord.gg/mcp-gateway',
+                label: 'Issues',
+                href: 'https://github.com/agenticdevops/openmcp/issues',
               },
             ],
           },
@@ -116,16 +116,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/agentic/mcp-gateway',
+                href: 'https://github.com/agenticdevops/openmcp',
               },
               {
                 label: 'Releases',
-                href: 'https://github.com/agentic/mcp-gateway/releases',
+                href: 'https://github.com/agenticdevops/openmcp/releases',
+              },
+              {
+                label: 'Roadmap',
+                to: '/docs/roadmap',
               },
             ],
           },
