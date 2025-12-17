@@ -1,0 +1,64 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.codeSection {
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 4rem 0;
+}
+
+.codeBlock {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  text-align: left;
+}
+
+.useCases {
+  padding: 4rem 0;
+}
+
+.useCase {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--ifm-color-emphasis-100);
+  height: 100%;
+}
+
+.cta {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 0;
+}
+
+.cta h2 {
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}

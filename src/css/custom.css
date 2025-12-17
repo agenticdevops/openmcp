@@ -1,0 +1,111 @@
+/**
+ * Open MCP Gateway - Custom Styles
+ */
+
+:root {
+  --ifm-color-primary: #5b6af0;
+  --ifm-color-primary-dark: #3d4eee;
+  --ifm-color-primary-darker: #2e40ed;
+  --ifm-color-primary-darkest: #1527d8;
+  --ifm-color-primary-light: #7986f2;
+  --ifm-color-primary-lighter: #8892f3;
+  --ifm-color-primary-lightest: #b0b7f7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #7986f2;
+  --ifm-color-primary-dark: #5b6af0;
+  --ifm-color-primary-darker: #4c5def;
+  --ifm-color-primary-darkest: #2338eb;
+  --ifm-color-primary-light: #9aa3f5;
+  --ifm-color-primary-lighter: #a9b0f6;
+  --ifm-color-primary-lightest: #d1d5fa;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Code blocks */
+.prism-code {
+  font-size: 0.9rem;
+}
+
+/* Hero button hover */
+.hero .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Smooth transitions */
+.button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Table styling */
+table {
+  display: table;
+  width: 100%;
+}
+
+th {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Admonition styling */
+.admonition {
+  border-radius: 8px;
+}
+
+/* Sidebar styling */
+.menu__link {
+  border-radius: 4px;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a2e;
+}
+
+.footer__title {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Card-like styling for feature boxes */
+.col--4 > .text--center {
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.col--4 > .text--center:hover {
+  background-color: var(--ifm-color-emphasis-100);
+  transform: translateY(-4px);
+}
+
+/* Badge styling for version labels */
+.badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.badge--success {
+  background-color: #28a745;
+  color: white;
+}
+
+.badge--warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.badge--info {
+  background-color: #17a2b8;
+  color: white;
+}
